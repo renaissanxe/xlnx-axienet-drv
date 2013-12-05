@@ -8,7 +8,6 @@ Add MII bus support, support to controll multiple PHYs through a single MII Bus(
 
 			-------------
 			|  BCM5464  |
-			|           |
 			-------------         ----------------------
 			|   PHY0    |         |  Zynq7045/Zynq7020 |
 			|       MDC |---------|     AXIETH0        | 
@@ -26,6 +25,8 @@ Add MII bus support, support to controll multiple PHYs through a single MII Bus(
 			|           |
 			|           |
 			-------------
+			
+			
 
 
 The device tree should be changed as follows to describe the device connections:
