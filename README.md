@@ -4,7 +4,8 @@ xlnx-axienet-drv
 Xilinx AXI ETHERNET Driver with Shared MII Bus
 
 Add MII bus support, support to controll multiple PHYs through a single MII Bus(MDIO).
-
+===============
+<code>
 -------------
 |  BCM5464  |
 |           |
@@ -26,8 +27,9 @@ Add MII bus support, support to controll multiple PHYs through a single MII Bus(
 |           |
 -------------
 
+<\code>
 The device tree should be changed as follows to describe the device connections:
-
+<code>
 ......
 		??Your IP NAME??: axi-ethernet@43c00000 {
 			axistream-connected = <&axi_dma_0>;
@@ -89,5 +91,5 @@ The device tree should be changed as follows to describe the device connections:
 			} ;
 		} ;
 ......
-
+<\code>
 
