@@ -27,7 +27,7 @@ Add MII bus support, support to controll multiple PHYs through a single MII Bus(
 |           |
 -------------
 
-<\code>
+</code>
 The device tree should be changed as follows to describe the device connections:
 <code>
 ......
@@ -91,5 +91,5 @@ The device tree should be changed as follows to describe the device connections:
 			} ;
 		} ;
 ......
-<\code>
+</code>
 
